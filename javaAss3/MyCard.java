@@ -15,5 +15,8 @@ public class MyCard extends Card {
         CardArr[1]=new Card("cdB", 2135);
         CardArr[2]=new Card("cdC",2136);
         CardArr[3]=new MyCard("cdD");
+        for(Card i:CardArr){
+            i.dspInfo();
+        }
     }
 }
